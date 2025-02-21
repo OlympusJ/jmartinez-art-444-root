@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="refresh" content="150">
   <title>Jessica Martinez</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
 </head>
 <body>
 
@@ -30,9 +30,10 @@
 <section id="about">
   <div class="about-me">
     <h2>About Me</h2>
-    <img src="images/me.JPG" alt="Photo of Me" width="400px" />
-    <p>Hello! I’m a returning student in my last year at San Diego State University. I am majoring in Art with an emphasis in Multimedia Design. The areas of focus I’m most interested in are Typography, Graphic Design, Photography, and Web Design.
-          </p>
+    <div>
+        <img src="images/me.JPG" alt="Photo of Me"  />
+        <p>Hello! I’m a returning student in my last year at San Diego State University. I am majoring in Art with an emphasis in Multimedia Design. The areas of focus I’m most interested in are Typography, Graphic Design, Photography, and Web Design.</p>
+    </div>
   </div>
 </section>
 
@@ -40,16 +41,18 @@
 <section id="skills">
   <div class="skills">
     <h2>Skills</h2>
-    <ul>
-      <li><img src="images/ps.svg" alt="Photoshop" width="125px"/><br>Photoshop</li>
-      <li><img src="images/illus.svg" alt="Illustrator" width="125px" /><br>Illustrator</li>
-      <li><img src="images/indesign.svg" alt="InDesign" width="125px" /><br>InDesign</li>
-      <li><img src="images/figma.svg" alt="Figma" width="125px" /><br>Figma</li>
-      <li><img src="images/adapt.svg" alt="Adaptability" width="125px" /><br>Adaptability</li>
-      <li><img src="images/creativity.svg" alt="Creativity" width="125px" /><br>Creativity</li>
-      <li><img src="images/team.svg" alt="Teamwork" width="125px" /><br>Teamwork</li>
-      <li><img src="images/time.svg" alt="Time Management" width="125px" /><br>Time Management</li>
-    </ul>
+      <div class="skills-row">
+        <div class="indv-skills"><img src="images/ps.svg" alt="Photoshop" class="svgs"/><br>Photoshop</div>
+        <div class="indv-skills"><img src="images/illus.svg" alt="Illustrator" class="svgs" /><br>Illustrator</div>
+        <div class="indv-skills"><img src="images/indesign.svg" alt="InDesign" class="svgs" /><br>InDesign</div>
+        <div class="indv-skills"><img src="images/figma.svg" alt="Figma" class="svgs" /><br>Figma</div>
+      </div>
+      <div class="skills-row">  
+        <div class="indv-skills"><img src="images/adapt.svg" alt="Adaptability" class="svgs" /><br>Adaptability</div>
+        <div class="indv-skills"><img src="images/creativity.svg" alt="Creativity" class="svgs" /><br>Creativity</div>
+        <div class="indv-skills"><img src="images/team.svg" alt="Teamwork" class="svgs" /><br>Teamwork</div>
+        <div class="indv-skills"><img src="images/time.svg" alt="Time Management" class="svgs" /><br>Time Management</div>
+      </div>
   </div>
 </section>
 
@@ -57,14 +60,16 @@
 <section id="gallery">
   <div class="gallery">
     <h2>Gallery</h2>
-    <img src="images/Conflict.jpg" alt="Self Conflict" />
-    <img src="images/kayaks.jpg" alt="Kayaks" />
-    <img src="images/stairs.jpg" alt="Wooden Stairs" />
-    <img src="images/crystals.jpg" alt="Crystals" />
-    <img src="images/book.jpg" alt="Typography Fundamentals Book"  />
-    <img src="images/PosterPanel1.jpg" alt="Poster Panel 1" />
-    <img src="images/PosterPanel2.jpg" alt="Poster Panel 2" />
-    <img src="images/PosterPanel3.jpg" alt="Poster Panel 3" />
+      <div class="slideshow">
+        <img src="images/book.jpg" class="jpg" alt="Typography Fundamentals Book"  />
+        <img src="images/kayaks.jpg" class="jpg" alt="Kayaks" />
+        <img src="images/stairs.jpg" class="jpg" alt="Wooden Stairs" />
+        <img src="images/crystals.jpg" class="jpg" alt="Crystals" />
+        <img src="images/Conflict.jpg" class="jpg" alt="Self Conflict" />
+        <img src="images/PosterPanel1.jpg" class="jpg" alt="Poster Panel 1" />
+        <img src="images/PosterPanel2.jpg" class="jpg" alt="Poster Panel 2" />
+        <img src="images/PosterPanel3.jpg" class="jpg" alt="Poster Panel 3" />
+      </div>
   </div>
 </section>
 
@@ -72,14 +77,22 @@
 <section id="FAQs">
   <div class="FAQs">
     <h2>Frequently Asked Questions</h2>
-      <h3>When will you be graduating from SDSU?</h3>
-      <p>I will be graduating after Fall 2025.</p>
-      <h3>What do you have planned for after graduation?</h3>
-      <p>After graduation I plan to look for full-time work in the multimedia or graphic design field while I maintain my current position.</p>
-      <h3>What was your favorite class you took at SDSU?</h3>
-      <p>My favorite class at SDSU was Jewelry and Metals. I was able to learn to create wearable items in a new medium I was initially nervous about. It was generally a very fun but challenging class. </p>
-      <h3>What work are you most proud producing at SDSU?</h3>
-      <p>I think I’m most proud of the triptych poster I created in Typography. Going into the class I had zero knowledge of typography and learned a lot in a short time.</p>
+      <div class="indv-question">
+        <h3>When will you be graduating from SDSU?</h3>
+        <p>I will be graduating after Fall 2025.</p>
+      </div>
+      <div class="indv-question">
+        <h3>What do you have planned for after graduation?</h3>
+        <p>After graduation I plan to look for full-time work in the multimedia or graphic design field while I maintain my current position.</p>
+      </div>
+      <div class="indv-question">
+        <h3>What was your favorite class you took at SDSU?</h3>
+        <p>My favorite class at SDSU was Jewelry and Metals. I was able to learn to create wearable items in a new medium I was initially nervous about. It was a very fun but challenging class. </p>
+      </div>
+      <div class="indv-question">
+        <h3>What work are you most proud producing at SDSU?</h3>
+        <p>I think I’m most proud of the triptych poster I created in Typography. Going into the class I had zero knowledge of typography and learned a lot in a short time.</p>
+      </div>  
   </div>
 </section>
 
