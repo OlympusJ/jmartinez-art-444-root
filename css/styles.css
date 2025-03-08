@@ -75,7 +75,7 @@ section:nth-child(even) {
     text-align: left;
     padding: 60px 40px 60px 40px;
 }
-.about, .skills, .gallery, {
+.about, .skills, .gallery {
     padding: 60px 40px 60px 40px;
 }
 .FAQs {
