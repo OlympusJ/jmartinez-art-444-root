@@ -1,10 +1,179 @@
 /* TABLET VIEW */
 @media only screen and (max-width:992px) {
-
+    nav {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        font-size: 18px;
+    }
+    .me-summary {
+        max-width: 80%;
+    }
+    .slideshow {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 10px;
+        justify-content: center;
+    }
+    .skills-grid {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto auto auto ;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .header {
+        display: flex;
+        height: auto;
+        align-items: flex-start;
+        background-image: url(../images/floral.svg);
+        background-size: 55%;
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+    .indv-question {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .details {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 48px;
+        font-family: "Lexend", Futura, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        color: #30144B;
+        margin: 0px;
+        margin-top: 25px;
+    }
+    h2 {
+        font-size: 32px;
+        font-family: "Lexend", Futura, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        color: #30144B;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+    .h3 {
+        font-size: 18px;
+        font-family: "Lexend", Futura, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        color: #30144B;
+        margin: 0px;
+    }
+    summary {
+        font-size: 16px;
+        font-family: "Lexend", Futura, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #30144B;
+        margin: 0px;
+    }
+    p {
+        font-size: .8em;
+    }
 }
 
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 478px) {
-  
+    nav {
+        display: none;
+    }
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        font-size: 16px;
+    }
+    .me-summary {
+        max-width: 80%;
+    }
+    .me {
+        width: 80%;
+        height: auto;
+    }
+    .slideshow {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .skills-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .svgs{
+        width: 150px;
+        height: auto;
+        fill: #30144B;
+    }
+    h1 {
+        font-size: 48px;
+        font-family: "Lexend", Futura, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        color: #30144B;
+        margin: 0px;
+        margin-top: 25px;
+    }
+    h2 {
+        font-size: 32px;
+        font-family: "Lexend", Futura, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        color: #30144B;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+    .h3 {
+        font-size: 18px;
+        font-family: "Lexend", Futura, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        color: #30144B;
+        margin: 0px;
+    }
+    summary {
+        font-size: 16px;
+        font-family: "Lexend", Futura, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #30144B;
+        margin: 0px;
+    }
+    p {
+        font-size: .8em;
+    }
 }
