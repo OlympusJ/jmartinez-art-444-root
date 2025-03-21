@@ -50,38 +50,8 @@ li a:hover{
     text-decoration: none;
     display: block;
 }
-.slideshow {
-    display: grid;
-    grid-template-columns: auto auto auto auto ;
-    grid-template-rows: auto auto ;
-    gap: 10px;
-    justify-content: center;
-}
-.jpg {
-    border: 0px solid #ddd;
-    padding: 5px;
-    width: 200px;
-}
-.header {
-    display: flex;
-    height: auto;
-    align-items: flex-start;
-    background-image: url(../images/floral.svg);
-    background-size: 35%;
-    background-position: right top;
-    background-repeat: no-repeat;
-}
-.about-me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    /* width: 100%; */
-    max-width: 960px;
-    gap: 40px;
-    font-size: 18px;
-    margin-left: auto;
-    margin-right: auto;
+a:hover {
+    cursor: e-resize;
 }
 html {
     scroll-behavior: smooth;
@@ -102,27 +72,41 @@ section {
 section:nth-child(odd) {
     background-color: #f3ebfa;
 }
+.about, .skills, .gallery {
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.section-title {
+    width: 100%;
+    max-width: 960px;
+    margin: 0px auto;
+}
+.header {
+    display: flex;
+    height: auto;
+    align-items: flex-start;
+    background-image: url(../images/floral.svg);
+    background-size: 35%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: left;
+    padding: 75px 0px 75px 0px;
+}
 .container {
     width: 100%;
     max-width: 960px;
-    text-align: left;
-    padding: 75px 40px 75px 40px;
+    margin: 0px auto;
 }
-.about, .skills, .gallery {
-    padding: 60px 40px 60px 40px;
-}
-.FAQs {
-    /* max-width: 960px; */
-    text-align: left;
-    padding: 60px 40px 60px 40px;
-}
-.indv-question {
-    border-radius: 20px;
-    border: 3px solid #30144B;
-    background: #E4D3F4;
-    max-width: 75%;
-    padding: 15px;
-    margin-bottom: 25px;
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    max-width: 960px;
+    gap: 40px;
     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
@@ -135,6 +119,57 @@ summary {
     font-style: normal;
     color: #30144B;
     margin: 0px;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto ;
+    gap: 100px;
+    justify-content: center;
+}
+.indv-skills{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    text-align: center;
+}
+.svgs{
+    width: 150px;
+    height: auto;
+    fill: #30144B;
+}
+.slideshow {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto ;
+    gap: 15px;
+    justify-content: center;
+}
+.jpg {
+    border: 0px solid #ddd;
+    padding: 5px;
+    width: 200px;
+}
+.FAQs {
+    width: 100%;
+    max-width: 960px;
+    padding: 60px 0px 60px 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.indv-question {
+    border-radius: 20px;
+    border: 3px solid #30144B;
+    background: #E4D3F4;
+    max-width: 80%;
+    padding: 15px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1 {
     font-size: 72px;
@@ -164,13 +199,11 @@ h2 {
     font-style: normal;
     color: #30144B;
     margin: 0px;
+    padding: 0px;
+    /* max-width: 200px;
+    animation-name: greeting;
+    animation-duration: 2s; */
 }
-/* .about, .gallery {
-    background-image: url(../images/floraltitle.svg);
-    background-repeat: no-repeat;
-    background-size: 350px auto;
-    background-position: 40px 30px;
-} */
 footer {
     background-color: #E4D3F4;
     color: #30144B;
@@ -178,21 +211,19 @@ footer {
     text-align: center;
     margin: 0px;
 }
-.skills-grid {
-    display: grid;
-    grid-template-columns: auto auto auto auto ;
-    grid-template-rows: auto auto ;
-    gap: 100px;
-    justify-content: center;
-}
-.indv-skills{
-    display: flex;
-    flex-direction: column;
-    column-gap: 10px;
-    text-align: center;
-}
-.svgs{
-    width: 150px;
-    height: auto;
-    fill: #30144B;
-}
+/* .about, .gallery {
+    background-image: url(../images/floraltitle.svg);
+    background-repeat: no-repeat;
+    background-size: 350px auto;
+    background-position: 40px 30px;
+} */
+/* @keyframes greeting {
+    0% {transform: scale(1,1);}
+    50% {transform: scale(2,2);}
+    100% {transform: scale(1,1);}
+} */
+/* @keyframes greeting {
+    0% {font-size: 24px;}
+    50% {font-size: 48px;}
+    100% {font-size: 24px;}
+} */
