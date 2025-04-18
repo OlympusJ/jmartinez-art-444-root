@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 32 32">
-  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 28 20">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
   <defs>
     <style>
       .st0 {
@@ -8,5 +8,5 @@
       }
     </style>
   </defs>
-  <path class="st0" d="M4,10h24c1.1,0,2-.9,2-2s-.9-2-2-2H4c-1.1,0-2,.9-2,2s.9,2,2,2ZM28,14H4c-1.1,0-2,.9-2,2s.9,2,2,2h24c1.1,0,2-.9,2-2s-.9-2-2-2ZM28,22H4c-1.1,0-2,.9-2,2s.9,2,2,2h24c1.1,0,2-.9,2-2s-.9-2-2-2Z"/>
+  <path class="st0" d="M2,4h24c1.1,0,2-.9,2-2s-.9-2-2-2H2C.9,0,0,.9,0,2s.9,2,2,2ZM26,8H2c-1.1,0-2,.9-2,2s.9,2,2,2h24c1.1,0,2-.9,2-2s-.9-2-2-2ZM26,16H2c-1.1,0-2,.9-2,2s.9,2,2,2h24c1.1,0,2-.9,2-2s-.9-2-2-2Z"/>
 </svg>

@@ -12,27 +12,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="#header">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#FAQs">FAQs</a></li>
-  </ul>
-  </nav>
   <div class="mobile-menu">
-    <div class="dropdown">
-    <img src="images/mobile.svg" alt="mobile menu icon" class="hamburger">
-      <div class="dropdown-content">
-        <a href="#header">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#FAQs">FAQs</a>
-      </div>
-    </div>
+    <img src="images/mobile.svg" onclick="revealMenu()" alt="mobile menu icon" class="hamburger">
   </div>
+  <nav id="nav" class="dropdown-content">
+    <a href="#header" onclick="closeMenu()">Home</a>
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#skills" onclick="closeMenu()">Skills</a>
+    <a href="#gallery" onclick="closeMenu()">Gallery</a>
+    <a href="#FAQs" onclick="closeMenu()">FAQs</a>
+  </nav>
 <!-- MAIN HEADER --> 
   <section id="header" class="header">
     <div class="container">
@@ -116,7 +105,7 @@
       </div>  
   </div>
 </section>
-
+<img src="images/scrolltop.svg" onclick="topFunction()" id="topbutton" />
 <!-- FOOTER SECTION -->  
 <footer>
   <div class="footer">
@@ -124,6 +113,6 @@
   </div>
 </footer>
 
-<script src="js/script.js"></script>
+<script src="js/script.js"> </script>
 </body>
 </html>
