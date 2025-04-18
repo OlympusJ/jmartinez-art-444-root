@@ -124,7 +124,7 @@
         font-size: .8em;
     }
 }
-@media only screen and (max-width: 750px) {
+/* @media only screen and (max-width: 750px) {
 #topbutton {
     display: none; 
     position: absolute;
@@ -135,7 +135,7 @@
     right: 30px; 
     z-index: 99; 
   } 
-}
+} */
 /* MOBILE VIEW */
 @media only screen and (max-width: 478px) {
     nav {
