@@ -13,14 +13,15 @@
 </head>
 <body>
   <div class="mobile-menu">
-    <img src="images/mobile.svg" onclick="revealMenu()" alt="mobile menu icon" class="hamburger">
+    <img src="images/mobile.svg" onclick="revealMenu()" alt="mobile menu icon" class="hamburger" id="hamburger">
   </div>
+  <div id="darkmodebutton" class="darkmodebutton" onclick="darkMode()"></div>
   <nav id="nav" class="dropdown-content">
-    <a href="#header" onclick="closeMenu()">Home</a>
-    <a href="#about" onclick="closeMenu()">About</a>
-    <a href="#skills" onclick="closeMenu()">Skills</a>
-    <a href="#gallery" onclick="closeMenu()">Gallery</a>
-    <a href="#FAQs" onclick="closeMenu()">FAQs</a>
+    <a href="#header" onclick="closeMenu()" class="linkstyling">Home</a>
+    <a href="#about" onclick="closeMenu()" class="linkstyling">About</a>
+    <a href="#skills" onclick="closeMenu()" class="linkstyling">Skills</a>
+    <a href="#gallery" onclick="closeMenu()" class="linkstyling">Gallery</a>
+    <a href="#FAQs" onclick="closeMenu()" class="linkstyling">FAQs</a>
   </nav>
 <!-- MAIN HEADER --> 
   <section id="header" class="header">
@@ -42,19 +43,29 @@
 </section>
 
 <!-- SKILLS SECTION -->  
-<section id="skills">
+<section id="skills" class="myskills">
   <div class="skills">
     <div class="section-title"><h2>Skills</h2></div>
       <div class="skills-grid">
-        <div class="indv-skills"><img src="images/ps.svg" alt="Photoshop" class="svgs"/><br>Photoshop</div>
-        <div class="indv-skills"><img src="images/illus.svg" alt="Illustrator" class="svgs" /><br>Illustrator</div>
-        <div class="indv-skills"><img src="images/indesign.svg" alt="InDesign" class="svgs" /><br>InDesign</div>
-        <div class="indv-skills"><img src="images/figma.svg" alt="Figma" class="svgs" /><br>Figma</div>
-        <div class="indv-skills"><img src="images/adapt.svg" alt="Adaptability" class="svgs" /><br>Adaptability</div>
-        <div class="indv-skills"><img src="images/creativity.svg" alt="Creativity" class="svgs" /><br>Creativity</div>
-        <div class="indv-skills"><img src="images/team.svg" alt="Teamwork" class="svgs" /><br>Teamwork</div>
-        <div class="indv-skills"><img src="images/time.svg" alt="Time Management" class="svgs" /><br>Time<br>Management</div>
+        <div class="indv-skills"><img src="images/ps.svg" alt="Photoshop" class="svgs" id="ps-svg"/><br>Photoshop</div>
+        <div class="indv-skills"><img src="images/illus.svg" alt="Illustrator" class="svgs" id="illus-svg" /><br>Illustrator</div>
+        <div class="indv-skills"><img src="images/indesign.svg" alt="InDesign" class="svgs" id="indesign-svg" /><br>InDesign</div>
+        <div class="indv-skills"><img src="images/figma.svg" alt="Figma" class="svgs" id="figma-svg" /><br>Figma</div>
+        <div class="indv-skills"><img src="images/adapt.svg" alt="Adaptability" class="svgs" id="adapt-svg" /><br>Adaptability</div>
+        <div class="indv-skills"><img src="images/creativity.svg" alt="Creativity" class="svgs" id="creativity-svg" /><br>Creativity</div>
+        <div class="indv-skills"><img src="images/team.svg" alt="Teamwork" class="svgs" id="team-svg" /><br>Teamwork</div>
+        <div class="indv-skills"><img src="images/time.svg" alt="Time Management" class="svgs" id="time-svg" /><br>Time<br>Management</div>
       </div>
+      <!-- <div class="skills-grid-dark">
+        <div class="indv-skills"><img src="images/psdark.svg" alt="Photoshop" class="svgs"/><br>Photoshop</div>
+        <div class="indv-skills"><img src="images/illusdark.svg" alt="Illustrator" class="svgs" /><br>Illustrator</div>
+        <div class="indv-skills"><img src="images/indesigndark.svg" alt="InDesign" class="svgs" /><br>InDesign</div>
+        <div class="indv-skills"><img src="images/figmadark.svg" alt="Figma" class="svgs" /><br>Figma</div>
+        <div class="indv-skills"><img src="images/adaptdark.svg" alt="Adaptability" class="svgs" /><br>Adaptability</div>
+        <div class="indv-skills"><img src="images/creativitydark.svg" alt="Creativity" class="svgs" /><br>Creativity</div>
+        <div class="indv-skills"><img src="images/teamdark.svg" alt="Teamwork" class="svgs" /><br>Teamwork</div>
+        <div class="indv-skills"><img src="images/timedark.svg" alt="Time Management" class="svgs" /><br>Time<br>Management</div>
+      </div> -->
   </div>
 </section>
 
@@ -76,8 +87,8 @@
 </section>
 
 <!-- FAQ SECTION -->  
-<section id="FAQs">
-  <div class="FAQs">
+<section id="FAQs" class="FAQs">
+  <div class="questions">
     <div class="section-title"><h2>Frequently Asked Questions</h2></div>
       <div class="indv-question">
         <details>
@@ -112,7 +123,6 @@
       <p>Jessica Martinez. Copywrite © 2025, All Rights Reserved</p>
   </div>
 </footer>
-
-<script src="js/script.js"> </script>
+<script src="js/script.js"></script>
 </body>
 </html>

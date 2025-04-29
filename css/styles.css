@@ -3,6 +3,9 @@ nav {
     width: 100%;
     background-image: linear-gradient(#f3ebfa 50%, #E4D3F4 100%);
 }
+.linkstyling {
+    color: #30144B;
+}
 #nav {
     list-style-type: none;
     margin: 0;
@@ -15,18 +18,34 @@ nav {
     display: block;
     padding: 20px;
     text-decoration: none;
-    color: #000;
 }
-#nav a:hover{
+/* #nav a:hover{
     background-color: #F3EBFA;
-}
+} */
 .mobile-menu {
     display: none;
     position: relative;
     z-index: 999;
+    min-height: 35px;
+}
+.darkmodebutton {
+    width: 75px;
+    height: 54.5814px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-image: url(../images/lightbutton.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9999;
 }
 .hamburger {
     height: 29.5px;
+    float: right;
+    margin-right: 10px;
+}
+a {
+    color: #30144B;
 }
 a:hover {
     cursor: e-resize;
@@ -39,6 +58,7 @@ body {
     margin: 0;
 	padding: 0;
 	border: 0;
+    color: #30144B;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -47,13 +67,19 @@ section {
     width: 100%;
     height: auto;
 }
-section:nth-child(odd) {
+/* section:nth-child(even) {
     background-color: #f3ebfa;
-}
+} */
 .about, .skills, .gallery {
     padding: 60px 0px 60px 0px;
     display: flex;
     flex-direction: column;
+}
+.myskills {
+    background-color: #f3ebfa;
+}
+.FAQs {
+    background-color: #f3ebfa;
 }
 .section-title {
     width: 100%;
@@ -64,6 +90,7 @@ section:nth-child(odd) {
     display: flex;
     height: auto;
     align-items: flex-start;
+    background-color: #f3ebfa;
     background-image: url(../images/floral.svg);
     background-size: 35%;
     background-position: right top;
@@ -95,7 +122,6 @@ summary {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    color: #30144B;
     margin: 0px;
 }
 .skills-grid {
@@ -114,7 +140,7 @@ summary {
 .svgs{
     width: 150px;
     height: auto;
-    fill: #30144B;
+    /* fill: #30144B; */
 }
 .slideshow {
     display: grid;
@@ -128,7 +154,7 @@ summary {
     padding: 5px;
     width: 200px;
 }
-.FAQs {
+.questions {
     width: 100%;
     max-width: 960px;
     padding: 60px 0px 60px 0px;
@@ -155,7 +181,6 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    color: #30144B;
     margin: 0px;
     margin-top: 25px;
 }
@@ -165,7 +190,6 @@ h2 {
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    color: #30144B;
     margin: 0px;
     margin-bottom: 50px;
 }
@@ -175,12 +199,8 @@ h2 {
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    color: #30144B;
     margin: 0px;
     padding: 0px;
-    /* max-width: 200px;
-    animation-name: greeting;
-    animation-duration: 2s; */
 }
 /* #topbutton {
     display: none; 
@@ -198,19 +218,39 @@ footer {
     text-align: center;
     margin: 0px;
 }
-/* .about, .gallery {
-    background-image: url(../images/floraltitle.svg);
-    background-repeat: no-repeat;
-    background-size: 350px auto;
-    background-position: 40px 30px;
-} */
-/* @keyframes greeting {
-    0% {transform: scale(1,1);}
-    50% {transform: scale(2,2);}
-    100% {transform: scale(1,1);}
-} */
-/* @keyframes greeting {
-    0% {font-size: 24px;}
-    50% {font-size: 48px;}
-    100% {font-size: 24px;}
-} */
+.bodydark {
+    background-color: #30144B !important;
+    color: #E4D3F4 !important;
+}
+.lightmodebutton {
+    background-image: url(../images/darkbutton.svg);
+}
+.headerdark {
+    background-color: #4E2079 !important;
+    background-image: url(../images/floraldark.svg) !important;
+}
+.indv-question-dark {
+    color: #30144B !important;
+}
+.FAQsdark {
+    background-color: #4E2079 !important;
+    color: #E4D3F4 !important;
+}
+.myskillsdark {
+    background-color: #4E2079 !important;
+    color: #E4D3F4 !important;
+}
+.navdark {
+    background-image: linear-gradient(#30144b 50%, #4E2079 100%) !important;
+}
+.linkstylingdark {
+    color: #E4D3F4 !important;;
+}
+.footerdark {
+    background-image: linear-gradient(#4E2079 50%, #30144b 100%) !important;
+    color: #E4D3F4 !important;
+}
+.mobile-menu-dark {
+    background-image: linear-gradient(#30144b 50%, #4E2079 100%) !important;
+    background-color: #30144B !important;
+}
