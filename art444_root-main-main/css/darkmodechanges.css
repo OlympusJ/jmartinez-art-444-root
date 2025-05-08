@@ -1,0 +1,17 @@
+body_dark {
+    background-image: linear-gradient(90deg, #30144B 0%, #4E2079 45.5%);
+    color: #E4D3F4
+}
+.header {
+    background-image: url(../images/floraldark.svg);
+}
+summary {
+    color: #E4D3F4;
+}
+.indv-question {
+    border: 3px solid #E4D3F4;
+    background: #30144B;
+}
+.lightmodebutton {
+    background-image: url(../images/darkbutton.svg);
+}
