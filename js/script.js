@@ -25,6 +25,14 @@ function darkMode() {
   document.getElementsByClassName("indv-question")[2].classList.toggle("indv-question-dark");
   document.getElementsByClassName("indv-question")[3].classList.toggle("indv-question-dark");
   document.getElementsByTagName("footer")[0].classList.toggle("footerdark");
+  document.getElementsByClassName("text")[0].classList.toggle("textdark");
+  document.getElementsByClassName("text")[1].classList.toggle("textdark");
+  document.getElementsByClassName("text")[2].classList.toggle("textdark");
+  document.getElementsByClassName("text")[3].classList.toggle("textdark");
+  document.getElementsByClassName("text")[4].classList.toggle("textdark");
+  document.getElementsByClassName("text")[5].classList.toggle("textdark");
+  document.getElementsByClassName("text")[6].classList.toggle("textdark");
+  document.getElementsByClassName("text")[7].classList.toggle("textdark");
 
   var img = document.getElementById("ps-svg");
   if (img.src.endsWith("images/ps.svg")) {
